@@ -1,2 +1,2 @@
 # Fitastic
-Get fit with iOS
+Get fit with iOS, fitness tracking app for iOS
