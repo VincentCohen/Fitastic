@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Workouts-->
+        <!--asdadasd-->
         <scene sceneID="8Uh-Hm-J9G">
             <objects>
                 <tableViewController id="0fR-Wp-2CS" customClass="WorkoutsTableViewController" customModule="Fit" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,7 +29,9 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Workouts" id="Kx4-ZJ-Q5J"/>
-                    <navigationItem key="navigationItem" id="jvO-Kp-5IH"/>
+                    <navigationItem key="navigationItem" title="asdadasd" id="jvO-Kp-5IH">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="5eg-Xv-aNq"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6rj-NP-10R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -45,10 +47,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Settings" id="N3o-45-djK"/>
+                    <navigationItem key="navigationItem" title="ehh" id="s37-Ia-9bD">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Dze-9q-Sgz"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qsz-hf-nIC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1220" y="397"/>
+            <point key="canvasLocation" x="3102" y="407"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nrV-RS-6zn">
@@ -68,12 +73,12 @@
             </objects>
             <point key="canvasLocation" x="2290" y="-333"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--uhm-->
         <scene sceneID="1sZ-Bh-TNI">
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ko8-9t-sHQ" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="x62-cS-I9b"/>
+                    <navigationItem key="navigationItem" title="uhm" id="x62-cS-I9b"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="j7T-uP-6rR">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
