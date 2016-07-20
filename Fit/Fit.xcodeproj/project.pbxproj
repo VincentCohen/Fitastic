@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF8CF6A11D3F93F200B373BA /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8CF6A01D3F93F200B373BA /* NavViewController.swift */; };
 		BFA721151D34123000ED8DB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA721141D34123000ED8DB8 /* AppDelegate.swift */; };
 		BFA7211C1D34123000ED8DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA7211A1D34123000ED8DB8 /* Main.storyboard */; };
 		BFA7211E1D34123000ED8DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA7211D1D34123000ED8DB8 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF8CF6A01D3F93F200B373BA /* NavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
 		BFA721111D34123000ED8DB8 /* Fit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA721141D34123000ED8DB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFA7211B1D34123000ED8DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				BFA721221D34123000ED8DB8 /* Info.plist */,
 				BFA721461D342CFD00ED8DB8 /* WorkoutsTableViewController.swift */,
 				BFA721481D342E0000ED8DB8 /* SettingsTableViewController.swift */,
+				BF8CF6A01D3F93F200B373BA /* NavViewController.swift */,
 			);
 			path = Fit;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				BFA721151D34123000ED8DB8 /* AppDelegate.swift in Sources */,
 				BFA721471D342CFD00ED8DB8 /* WorkoutsTableViewController.swift in Sources */,
+				BF8CF6A11D3F93F200B373BA /* NavViewController.swift in Sources */,
 				BFA721491D342E0000ED8DB8 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +490,7 @@
 				BFA7213D1D34123100ED8DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA7213E1D34123100ED8DB8 /* Build configuration list for PBXNativeTarget "FitTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				BFA721401D34123100ED8DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA721411D34123100ED8DB8 /* Build configuration list for PBXNativeTarget "FitUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				BFA721431D34123100ED8DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,13 +12,13 @@ class SettingsTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
-        let alertController = UIAlertController(title: "Settings overview", message:
-            "In a tableview your Settings will show", preferredStyle: UIAlertControllerStyle.Alert)
-        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default,handler: nil))
-        
-        self.presentViewController(alertController, animated: true, completion: nil)
+//        self.navigationController?.navigationItem.title = "IK BEN TITEL"
+//        let alertController = UIAlertController(title: "Settings overview", message:
+//            "In a tableview your Settings will show", preferredStyle: UIAlertControllerStyle.Alert)
+//        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default,handler: nil))
+//        
+//        self.presentViewController(alertController, animated: true, completion: nil)
 
         
         // Uncomment the following line to preserve selection between presentations
