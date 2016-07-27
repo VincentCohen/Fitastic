@@ -9,7 +9,7 @@
 import UIKit
 
 class SettingsTableViewController: UITableViewController {
-    
+
     let data        = [["My workouts", "Exercises"], ["Weight Unit", "Bar & Plates", "Data"]]
     let sections    = ["Workout settings", "Other settings"]
     
@@ -18,6 +18,7 @@ class SettingsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
         self.navigationItem.rightBarButtonItem = nil // dont need this
         
         // Uncomment the following line to preserve selection between presentations
@@ -46,10 +47,10 @@ class SettingsTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("LabelCell", forIndexPath: indexPath)
-        
+
         // Configure the cell...
         cell.textLabel?.text = data[indexPath.section][indexPath.row]
-        
+
         return cell
     }
     
@@ -57,6 +58,14 @@ class SettingsTableViewController: UITableViewController {
         return sections[section]
     }
     
+
+    /*
+    // Override to support conditional editing of the table view.
+    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        // Return false if you do not want the specified item to be editable.
+        return true
+    }
+    */
     
     /*
      // Override to support conditional editing of the table view.
