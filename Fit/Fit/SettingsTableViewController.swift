@@ -10,16 +10,15 @@ import UIKit
 
 class SettingsTableViewController: UITableViewController {
 
+    let data        = [["My workouts", "Exercises"], ["Weight Unit", "Bar & Plates", "Data"]]
+    let sections    = ["Workout settings", "Other settings"]
+    
+    let numberOfRowsAtSection = [2, 3]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
-        let alertController = UIAlertController(title: "Settings overview", message:
-            "In a tableview your Settings will show", preferredStyle: UIAlertControllerStyle.Alert)
-        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.Default,handler: nil))
-        
-        self.presentViewController(alertController, animated: true, completion: nil)
-
+        self.tableView.contentInset = UIEdgeInsetsMake(64, 0, 0, 0);
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -37,23 +36,27 @@ class SettingsTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 2
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return numberOfRowsAtSection[section]
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("LabelCell", forIndexPath: indexPath)
 
         // Configure the cell...
+        cell.textLabel?.text = data[indexPath.section][indexPath.row]
 
         return cell
     }
-    */
+    
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return sections[section]
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
